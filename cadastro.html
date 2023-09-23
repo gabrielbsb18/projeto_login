@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Cadastro</title>
+</head>
+<body>
+  <div class="container">
+    <div class="cadastro-box">
+      <h2>Cadastro</h2>
+      <form id="cadastro-form">
+        <div class="textbox">
+          <input type="text" placeholder="Nome" name="nome" required>
+        </div>
+        <div class="textbox">
+          <input type="email" placeholder="E-mail" name="email" required>
+        </div>
+        <div class="textbox">
+          <input type="password" placeholder="Senha" name="senha" required>
+        </div>
+        <input type="submit" class="btn" value="Cadastrar">
+      </form>
+      <p><a href="index.html">Voltar para a tela de login</a>.</p>
+    </div>
+    <div id="mensagem-sucesso" class="mensagem-sucesso">
+      <p>Cadastro realizado com sucesso!</p>
+    </div>
+  </div>
+  <script src="js/cadastro.js"></script>
+</body>
+</html>

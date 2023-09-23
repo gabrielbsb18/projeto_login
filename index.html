@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Tela de Login</title>
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <h2>Login</h2>
+      <form id="login-form">
+        <div class="textbox">
+          <input type="email" placeholder="E-mail" name="email" required>
+        </div>
+        <div class="textbox">
+          <input type="password" placeholder="Senha" name="password" required>
+        </div>
+        <input type="submit" class="btn" value="Login">
+      </form>
+      <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a>.</p>
+      <p><a href="recuperar_senha.html">Esqueci minha senha</a></p>
+    </div>
+    <div id="mensagem-sucesso" class="mensagem-sucesso">
+      <p>Login efetuado com sucesso!</p>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

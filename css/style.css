@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Fundo mais claro */
+  }
+  
+  .container {
+    background-color: #e0e0e0; /* Cinza claro para o container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-box {
+    margin: 20px 0;
+  }
+  
+  .login-box h2 {
+    color: #2DA679; /* Verde claro para o título */
+  }
+  
+  .textbox {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .textbox input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #2DA679; /* Verde claro para a borda do input */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #A60A43; /* Vermelho escuro para o botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #D90B42; /* Vermelho mais claro ao passar o mouse */
+  }
+  
+  p {
+    font-size: 14px;
+    color: #400C1F;
+  }
+  
+  a {
+    color: #400C1F;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .mensagem-sucesso {
+    opacity: 0;
+    background-color: #2DA679; /* Verde claro */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .mensagem-sucesso p {
+    margin: 0;
+    color: white;
+  }
+
+  
+  
+
